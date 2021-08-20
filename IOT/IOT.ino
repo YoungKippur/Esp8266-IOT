@@ -14,7 +14,7 @@
 
 #define SENS_PIN A0
 
-const char* ssid = "CABLEVISION-eec1";
+const char* ssid = "CABLEVISION-eec1"; // Cambiar por red personal 
 const char* password = "1805BMISBQHA";
 
 int value1 = 1;
@@ -284,12 +284,12 @@ void asturbandaOpa() {
   delay(1000);
 }
 
-//Para sensores y eso
-//client.print("<meta http-equiv='refresh' content='0.3; url=http://");
-//client.print(WiFi.localIP());
-//client.println("/LED1=PATRON1'>");
+// Para sensores y eso
+// client.print("<meta http-equiv='refresh' content='0.3; url=http://");
+// client.print(WiFi.localIP());
+// client.println("/LED1=PATRON1'>");
 
-// actualizacion
-// este es mejr:
+// Actualizacion
+// este es mejor:
 // client.print("<meta http-equiv='refresh' content='0'>");
 // y desp le metes un delay
